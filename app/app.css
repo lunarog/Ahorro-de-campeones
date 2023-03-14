@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #65adf1;
+  color: white;
+}
+
+.HortiFrutlogo {
+  width: 45%;
+}
+.Campeones {
+  width: 75%;
+}
+
+.cardbg {
+  background-color: '#88FFFFFF';
+}
+
+.actionLabel {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.actionLabelError {
+  font-size: 26px;
+  font-weight: bold;
+  color: #d5012c;
+}
+.actionLabelErrorSub {
+  font-size: 16px;
+  font-weight: bold;
+  color: #d5012c;
+}
+
+.ModalTitlelabel {
+  font-size: 26px;
+  font-weight: bold;
+  color: #509f4a;
+}
+
+.ModalTitlelabelSub {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ModalTitleAmountlabelSub {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.LabelDesc {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.LabelAmount {
+  font-size: 14px;
+  padding: 5 18;
+  border-color: #000;
+  border-width: 0 0 2 0;
+}
+
+.Maincard {
+  background-color: #ffffffe9;
+  margin: 10;
+  border-radius: 25;
+}

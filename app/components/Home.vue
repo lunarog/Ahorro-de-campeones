@@ -8,13 +8,9 @@
         rowSpan="3"
       ></Image>
 
-      <StackLayout
-        row="1"
-        class="text-center p-10 Maincard"
-        
-      >
+      <StackLayout row="1" class="text-center p-10 Maincard">
         <Image
-          src="~/assets/hortifrut.png"
+          src="~/assets/logo.png"
           stretch="aspectFill"
           class="HortiFrutlogo"
         ></Image>

@@ -12,6 +12,9 @@ ActionBar {
 }
 .Campeones {
   width: 75%;
+
+  background-size: 500%;
+  background-position: center;
 }
 
 .cardbg {

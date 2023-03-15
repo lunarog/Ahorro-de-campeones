@@ -15,7 +15,7 @@
           class="HortiFrutlogo"
         ></Image>
         <Image
-          src="~/assets/campeones.jpg"
+          src="~/assets/campeon.png"
           stretch="aspectFill"
           class="Campeones"
         ></Image>

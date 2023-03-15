@@ -5,7 +5,7 @@
         <Label text="¡Conoce tus Bonos!" class="text-center ModalTitlelabel" />
         <Label text="Acumulado total:" class="text-center ModalTitlelabelSub" />
         <Label
-          :text="'$' + total"
+          :text="'$' + parseFloat(total).toFixed(2)"
           class="text-center ModalTitleAmountlabelSub"
         />
       </StackLayout>
@@ -24,7 +24,7 @@
               />
               <Label
                 col="1"
-                :text="'$' + item.Amount"
+                :text="'$' + parseFloat(item.Amount).toFixed(2)"
                 class="text-center LabelAmount"
               />
             </StackLayout>
@@ -32,7 +32,7 @@
         </ScrollView>
       </StackLayout>
       <StackLayout row="2" class="text-center p-2">
-        <Button text="Salir" @tap="$modal.close()" />
+        <Button text="Salir" @tap="$modal.close()" class="Okbutton" />
       </StackLayout>
     </GridLayout>
   </Page>
@@ -49,10 +49,9 @@ export default Vue.extend({
     };
   },
   mounted() {
-    console.log(this.results);
     for (var i = 0; i < this.results.length; i++) {
       this.rows = this.rows + '*,';
-      this.total += parseInt(this.results[i].Amount);
+      this.total += parseFloat(this.results[i].Amount);
     }
   },
 });

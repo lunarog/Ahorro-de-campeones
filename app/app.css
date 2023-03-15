@@ -9,12 +9,11 @@ ActionBar {
 
 .HortiFrutlogo {
   width: 45%;
+  margin: 0, 0, 20, 0;
 }
 .Campeones {
-  width: 75%;
-
-  background-size: 500%;
-  background-position: center;
+  width: 55%;
+  margin: 0, 0, 20, 0;
 }
 
 .cardbg {
@@ -66,7 +65,27 @@ ActionBar {
 }
 
 .Maincard {
-  background-color: #ffffffe9;
   margin: 10;
   border-radius: 25;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.Okbutton {
+  background-color: #509f4a;
+  color: #fff;
+}
+
+.Errorbutton {
+  background-color: #d5012c;
+  color: #fff;
+}
+
+.Fab {
+  width: 50;
+  height: 50;
+  background-color: #d5012c;
+  border-radius: 25;
+  color: #fff;
+  right: 20;
+  bottom: 20;
 }

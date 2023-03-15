@@ -4,7 +4,7 @@
       <Image
         src="http://hortifrut.greenmoonstudios.com/Images/Flayer.jpg"
       ></Image>
-      <Button text="Salir" @tap="$modal.close()" />
+      <Button text="Salir" @tap="$modal.close()" class="Okbutton" />
     </StackLayout>
   </Page>
 </template>

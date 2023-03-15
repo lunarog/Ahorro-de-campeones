@@ -15,7 +15,7 @@
           class="HortiFrutlogo"
         ></Image>
         <Image
-          src="~/assets/campeon.png"
+          src="~/assets/ahorro.png"
           stretch="aspectFill"
           class="Campeones"
         ></Image>
@@ -24,27 +24,14 @@
         <TextField v-model="Num" hint="Buscar..." margin="0,0,20,0" />
         <Button
           text="Buscar mis bonos"
-          margin="0,0,20,0"
           @tap="buscarMisBonos"
-          backgroundColor="#509f4a"
-          color="#fff"
+          class="Okbutton"
         />
       </StackLayout>
 
       <stackLayout row="2" margin="0,10,0,10">
         <AbsoluteLayout>
-          <Button
-            text="?"
-            class="circular-button"
-            @tap="OpenModalImage"
-            width="50"
-            height="50"
-            backgroundColor="#d5012c"
-            borderRadius="25"
-            color="#fff"
-            right="20"
-            bottom="20"
-          />
+          <Button text="?" class="Fab" @tap="OpenModalImage" />
         </AbsoluteLayout>
       </stackLayout>
     </GridLayout>
@@ -98,7 +85,7 @@ export default {
   },
   data() {
     return {
-      Num: 'ALA000006',
+      Num: '',
     };
   },
 };

@@ -2,7 +2,7 @@
   <Page>
     <StackLayout row="1">
       <Image
-        src="http://hortifrut.greenmoonstudios.com/Images/Flayer.jpg"
+        src="https://hortifrut.greenmoonstudios.com/Images/Flayer.jpg"
       ></Image>
       <Button text="Salir" @tap="$modal.close()" class="Okbutton" />
     </StackLayout>

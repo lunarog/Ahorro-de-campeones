@@ -2,7 +2,7 @@
   <Page>
     <GridLayout rows="auto, *, auto ">
       <StackLayout row="0" class="text-center p-2">
-        <Label text="¡Conoce tus Bonos!" class="text-center ModalTitlelabel" />
+        <Label text="¡Ahorros!" class="text-center ModalTitlelabel" />
         <Label text="Acumulado total:" class="text-center ModalTitlelabelSub" />
         <Label
           :text="'$' + parseFloat(total).toFixed(2)"

@@ -23,7 +23,7 @@
         <label text="de empleado" class="actionLabel" margin="0,0,20,0" />
         <TextField v-model="Num" hint="Buscar..." margin="0,0,20,0" />
         <Button
-          text="Buscar mis bonos"
+          text="Consultar mis Ahorros"
           @tap="buscarMisBonos"
           class="Okbutton"
         />
@@ -67,7 +67,7 @@ export default {
     },
     buscarMisBonos() {
       Http.getJSON(
-        'http://api.hortifrut.greenmoonstudios.com/?table=Employees&linkTo=Employee&equalTo=' +
+        'https://api.hortifrut.greenmoonstudios.com/?table=Employees&linkTo=Employee&equalTo=' +
           this.Num
       ).then(
         (result: any) => {
